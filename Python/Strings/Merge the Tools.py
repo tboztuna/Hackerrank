@@ -1,12 +1,10 @@
+from collections import OrderedDict
+
+
 def merge_the_tools(string, k):
-    split_string = lambda str, n : [str[i:i+3] for i in range(0, len(str), n)]
-    splitted_str = split_string(string, k)
-    new_list = list()
-
-    for i in range(len(string)):
-       if stringi == i+1
-
-    print ""
+    for x in range(0,len(string),k):
+        str = string[x:x + k]
+        print ''.join(list(OrderedDict.fromkeys(str)))
 
 
 if __name__ == '__main__':
